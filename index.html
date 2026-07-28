@@ -87,32 +87,11 @@ body::after{
 h1{
     font-size:58px;
     line-height:1.1;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
 h1 span{
     color:#38bdf8;
-}
-
-/* اسم المصمم */
-
-.author{
-    display:inline-block;
-    margin-bottom:25px;
-
-    font-size:8px;
-    font-weight:bold;
-    letter-spacing:3px;
-    text-transform:uppercase;
-
-    color:#38bdf8;
-
-    text-shadow:
-        0 0 10px #38bdf8,
-        0 0 20px #38bdf8,
-        0 0 40px #2563eb;
-
-    animation:glowName 2.5s ease-in-out infinite;
 }
 
 p{
@@ -184,7 +163,9 @@ button:hover{
 @keyframes move{
 
     50%{
+
         transform:rotate(15deg) translateY(-25px);
+
     }
 
 }
@@ -192,42 +173,17 @@ button:hover{
 @keyframes show{
 
     from{
+
         opacity:0;
         transform:translateY(40px);
+
     }
 
     to{
+
         opacity:1;
         transform:translateY(0);
-    }
 
-}
-
-@keyframes glowName{
-
-    0%{
-        transform:translateY(0);
-        opacity:.8;
-        text-shadow:
-            0 0 10px #38bdf8,
-            0 0 20px #38bdf8;
-    }
-
-    50%{
-        transform:translateY(-8px) scale(1.05);
-        opacity:1;
-        text-shadow:
-            0 0 20px #38bdf8,
-            0 0 40px #38bdf8,
-            0 0 70px #2563eb;
-    }
-
-    100%{
-        transform:translateY(0);
-        opacity:.8;
-        text-shadow:
-            0 0 10px #38bdf8,
-            0 0 20px #38bdf8;
     }
 
 }
@@ -249,25 +205,28 @@ button:hover{
 }
 
 .text{
+
     width:100%;
+
 }
 
 h1{
-    font-size:38px;
-}
 
-.author{
-    font-size:20px;
-    letter-spacing:2px;
+    font-size:38px;
+
 }
 
 p{
+
     font-size:16px;
+
 }
 
 button{
+
     width:100%;
     max-width:260px;
+
 }
 
 .shape{
@@ -292,24 +251,17 @@ button{
 <div class="text">
 
 <h1>
-    New <span>Badr City</span>
+New <span>Badr City</span>
 </h1>
 
-
-
 <p>
-    Displaying descriptive and spatial data for city infrastructure facilities.
+Displaying descriptive and spatial data for city infrastructure facilities.
 </p>
-
-<div class="author">
-GIS:Hossam Mohamed
-</div>
-<br>
 
 <a href="https://www.arcgis.com/apps/instant/basic/index.html?appid=0b05465b2a25402e8a93757013b9f9ce" target="_blank">
 
 <button>
-    View Project
+View Project
 </button>
 
 </a>
